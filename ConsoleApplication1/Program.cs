@@ -8,6 +8,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Stopwatch watch = new Stopwatch();
+            int dd;
 
         a: bool askersayi = true;
             Console.Write("Toplam asker: ");

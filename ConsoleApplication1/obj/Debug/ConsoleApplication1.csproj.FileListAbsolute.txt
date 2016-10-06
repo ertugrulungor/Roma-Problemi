@@ -10,3 +10,6 @@ c:\users\lab210-pc 1\documents\visual studio 2013\Projects\ConsoleApplication1\C
 \\Mac\Home\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 \\Mac\Home\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
 \\Mac\Home\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Yasin Duvarci\Source\Repos\RomaProblemi\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Yasin Duvarci\Source\Repos\RomaProblemi\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Yasin Duvarci\Source\Repos\RomaProblemi\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
