@@ -13,3 +13,6 @@ c:\users\lab210-pc 1\documents\visual studio 2013\Projects\ConsoleApplication1\C
 C:\Users\Yasin Duvarci\Source\Repos\RomaProblemi\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
 C:\Users\Yasin Duvarci\Source\Repos\RomaProblemi\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Yasin Duvarci\Source\Repos\RomaProblemi\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\ertugrulungor\Source\Repos\RomaProblemi\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\ertugrulungor\Source\Repos\RomaProblemi\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\ertugrulungor\Source\Repos\RomaProblemi\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
