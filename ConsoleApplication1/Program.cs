@@ -8,11 +8,15 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Stopwatch watch = new Stopwatch();
-            int dd;
-
-        a: bool askersayi = true;
+            a: bool askersayi = true;
             Console.Write("Toplam asker: ");
             string n = Console.ReadLine();
+
+            if (String.IsNullOrEmpty(n))
+            {
+                Console.Write(" Asker sayisi bos geçilemez...\n");
+                goto a;
+            }
             foreach (char item in n)
             {
                 if (item < 47 || item > 58)
@@ -25,14 +29,14 @@ namespace ConsoleApplication1
             if (n.Length < 9)
             {
                 if (askersayi == false || Convert.ToInt32(n) < 3)
-                { 
-                    Console.Write("Girdiğiniz karakter hatalı yada asker sayısı 2'den az\n");
+                {
+                    Console.Write(" Girdiginiz karakter hatali yada asker sayisi 2'den az\n");
                     goto a;
                 }
             }
             else
             {
-                Console.Write("Asker sayısı 8 haneden fazla olamaz\n");
+                Console.Write(" Asker sayisi 8 haneden fazla olamaz\n");
                 goto a;
             }
 
@@ -40,8 +44,14 @@ namespace ConsoleApplication1
             int asker = Convert.ToInt32(n);
             int[] dizi = new int[asker];
 
-        b: bool adimsayi = true; Console.Write("Adım sayısı: ");
+            b: bool adimsayi = true;
+            Console.Write("Adim sayisi: ");
             string a = Console.ReadLine();
+            if (String.IsNullOrEmpty(a))
+            {
+                Console.Write(" Adim sayisi bos geçilemez...\n");
+                goto b;
+            }
             foreach (char item in a)
             {
                 if (item < 47 || item > 58)
@@ -54,13 +64,13 @@ namespace ConsoleApplication1
             {
                 if (adimsayi == false || Convert.ToInt32(a) < 1)
                 {
-                    Console.Write("Girdiğiniz karakter hatalı yada adım sayısı asker sayısından büyük\n");
+                    Console.Write(" Girdiginiz karakter hatali yada 0 dan büyük bir adim sayisi giriniz.\n");
                     goto b;
                 }
             }
             else
             {
-                Console.Write("Adım sayısı 8 haneden fazla olamaz\n");
+                Console.Write(" Adim sayisi 8 haneden fazla olamaz\n");
                 goto b;
             }
             int adim = Convert.ToInt32(a);
@@ -120,9 +130,25 @@ namespace ConsoleApplication1
 
             watch.Stop();
 
-            Console.WriteLine("\nÇalışma süresi: " + watch.Elapsed.TotalMilliseconds + " milisaniye");
-            Console.ReadLine();
+            Console.WriteLine("\nÇalisma süresi: " + watch.Elapsed.TotalMilliseconds + " milisaniye\n");
 
+            c: Console.Write("Yeni islem yapmak istiyorsaniz(E) çikis için (H) tiklayiniz. ");
+            string yeniislem = Console.ReadLine();
+            if (String.IsNullOrEmpty(yeniislem))
+            {
+                Console.Write(" Lütfen yapmak istediginiz islemi seçiniz...\n");
+                goto c;
+            }
+
+            if (yeniislem == "E" || yeniislem == "e")
+                goto a;
+            else if (yeniislem == "H" || yeniislem == "h")
+                Console.Write("Goodbye");
+            else
+            {
+                Console.Write(" Uygun Karekterler giriniz.\n");
+                goto c;
+            } 
         }
 
     }
