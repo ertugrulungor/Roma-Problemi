@@ -19,3 +19,6 @@ C:\Users\ertugrulungor\Source\Repos\RomaProblemi\ConsoleApplication1\obj\Debug\C
 C:\Users\Yasin Duvarci\Source\Repos\Roma-Problemi\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
 C:\Users\Yasin Duvarci\Source\Repos\Roma-Problemi\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Yasin Duvarci\Source\Repos\Roma-Problemi\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Yasin Duvarci\Source\Repos\Roma-Problemi\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Yasin Duvarci\Source\Repos\Roma-Problemi\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Yasin Duvarci\Source\Repos\Roma-Problemi\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

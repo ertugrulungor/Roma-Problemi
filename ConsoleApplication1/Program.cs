@@ -7,7 +7,6 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int dnn;
             Stopwatch watch = new Stopwatch();
             a: bool askersayi = true;
             Console.Write("Toplam asker: ");
@@ -40,7 +39,6 @@ namespace ConsoleApplication1
                 Console.Write(" Asker sayisi 8 haneden fazla olamaz\n");
                 goto a;
             }
-
 
             int asker = Convert.ToInt32(n);
             int[] dizi = new int[asker];
@@ -75,9 +73,6 @@ namespace ConsoleApplication1
                 goto b;
             }
             int adim = Convert.ToInt32(a);
-
-
-
             watch.Start();
             for (int i = 0; i < dizi.Length; i++)
             {
@@ -152,8 +147,7 @@ namespace ConsoleApplication1
             } 
         }
 
-    }
-
+    } 
 }
 
 
